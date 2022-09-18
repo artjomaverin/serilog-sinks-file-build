@@ -10,3 +10,13 @@ services:
       - 50000:50000
     volumes:
       - ../jenkins/master/jenkins-home:/var/jenkins_home
+
+  jenkins_agent:
+    container_name: jenkins_agent-007
+    restart: always
+    image: jenkins/inbound-agent
+    privileged: true
+    environment:
+      - JENKINS_URL="127.0.0.1:8080"
+      - JENKINS_AGENT_NAME="agent-007"
+      - JENKINS_SECRET="fbf79b6d580a6ccf8f907be223f92c3cbc0f486e537b34a2d2f1b94ea6874269"
