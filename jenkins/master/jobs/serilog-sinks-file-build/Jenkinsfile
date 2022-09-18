@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+	    stage('test') {
+		    steps {
+			    echo "testing now"
+				git branch: "develop", url: "https://github.com/artjomaverin/serilog-sinks-file-build"
+			}
+		}
+	}
+}
