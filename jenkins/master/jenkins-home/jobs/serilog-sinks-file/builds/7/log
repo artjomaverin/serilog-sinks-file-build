@@ -1,0 +1,113 @@
+Started by user [8mha:////4C0fM/punpu1LKRVH5Cz8Z0q7F1eRt1oTQvOiNpg021RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Replayed [8mha:////4Kwvm6VJdD/RWNfVGUybEYShFnQV3fqVOI8j7qZ7f09dAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYp/az8JP3i1KLMnPx03WKgrcW6aZk5qfpm+gAJ8EUEzwAAAA==[0m#6
+[8mha:////4N+cIwphYiijsH79Lr4xyVHlHBhRqeOmS7gTUR9z8eiLAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4BfxvZe3qPQSdBgLddQBMYouS7I/8cPvbv2BlIPbeCmUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IeRxnoyBG05vNd9OpVneIf0KaCdS1majkiT7AHwvxBCAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/serilog-sinks-file
+[8mha:////4CKQ0AATPTqkQDCaWsaRlCDJut7MJpuWL2wxOE9VdQprAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4AMdWjOC1PK6TLVP9eh5E/f9gWckOBpygAUr5+nhuD65AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4IJjmJvBzVirPEz0V8CL8WfJFsQ6tu5zxDNYk0OV0nxJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4BG+W0N4FrLPbAUr7RRHC/z3oA01Ld3ou2wNNHGlpYDcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/serilog-sinks-file/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/artjomaverin/serilog-sinks-file-build # timeout=10
+Fetching upstream changes from https://github.com/artjomaverin/serilog-sinks-file-build
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/artjomaverin/serilog-sinks-file-build +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/dev
+Seen branch in repository origin/develop
+Seen branch in repository origin/main
+Seen 3 remote branches
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 0076d6598e5941eadd1314303d3a263ea43ed388 (origin/develop)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0076d6598e5941eadd1314303d3a263ea43ed388 # timeout=10
+Commit message: "Add basic Jenkinsfile for the serilog build job"
+ > git rev-list --no-walk 0076d6598e5941eadd1314303d3a263ea43ed388 # timeout=10
+[8mha:////4P1coKJGOFMR+ixogLzzXhoBhlShIW9EZpdn7dpH+e40AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4L7OejFfbqR3ZmMzCHMM6/maSLGuROPetaosg09ypjbiAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4JMqVfTblI1dsWzG51ab4FMnoQuPiZZkXiduZlWyRrqMAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4FKkkcvatssU7vOc9kdMdKtBW7KaXRDAqzyNHsVpGtlAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4CmrVjW+7BjTB8X364Pr3CX5YMcKBCckszxV3yHsGKXYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4PWA15kwIX1PT0WkRI4QAkYXuAlnMtISY8680Dja3HZQAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (checkout git repo)
+[8mha:////4AX405o6RMS7hm8+jtWGjdnwMWHKGnZAO1/AOD7H1d1nAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/serilog-sinks-file/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/serilog/serilog-sinks-file/ # timeout=10
+Fetching upstream changes from https://github.com/serilog/serilog-sinks-file/
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/serilog/serilog-sinks-file/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/dev^{commit} # timeout=10
+Checking out Revision d2117ab67d588a49e36a9a38d5a5ed3f16e23157 (refs/remotes/origin/dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d2117ab67d588a49e36a9a38d5a5ed3f16e23157 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D dev # timeout=10
+ > git checkout -b dev d2117ab67d588a49e36a9a38d5a5ed3f16e23157 # timeout=10
+Commit message: "Merge pull request #241 from Sjoerdsjoerd/patch-1"
+ > git rev-list --no-walk d2117ab67d588a49e36a9a38d5a5ed3f16e23157 # timeout=10
+[8mha:////4FZulEXz2M4JKZGwNQMcrg/pPG0yYKPODnDVAOcus1T8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] sh
++ ls -lat
+total 92
+drwxr-xr-x 8 jenkins jenkins  4096 Sep 20 06:12 .git
+drwxr-xr-x 7 jenkins jenkins  4096 Sep 20 06:12 .
+-rw-r--r-- 1 jenkins jenkins   226 Sep 20 06:12 .editorconfig
+-rw-r--r-- 1 jenkins jenkins    67 Sep 20 06:12 .gitattributes
+-rw-r--r-- 1 jenkins jenkins  3804 Sep 20 06:12 .gitignore
+-rw-r--r-- 1 jenkins jenkins   156 Sep 20 06:12 .travis.yml
+-rw-r--r-- 1 jenkins jenkins  1526 Sep 20 06:12 Build.ps1
+-rw-r--r-- 1 jenkins jenkins   190 Sep 20 06:12 CHANGES.md
+-rw-r--r-- 1 jenkins jenkins 11357 Sep 20 06:12 LICENSE
+-rw-r--r-- 1 jenkins jenkins  8391 Sep 20 06:12 README.md
+-rw-r--r-- 1 jenkins jenkins   612 Sep 20 06:12 appveyor.yml
+drwxr-xr-x 2 jenkins jenkins  4096 Sep 20 06:12 assets
+-rwxr-xr-x 1 jenkins jenkins   379 Sep 20 06:12 build.sh
+drwxr-xr-x 3 jenkins jenkins  4096 Sep 20 06:12 example
+-rw-r--r-- 1 jenkins jenkins  3163 Sep 20 06:12 serilog-sinks-file.sln
+-rw-r--r-- 1 jenkins jenkins   497 Sep 20 06:12 serilog-sinks-file.sln.DotSettings
+drwxr-xr-x 3 jenkins jenkins  4096 Sep 20 06:12 src
+drwxr-xr-x 3 jenkins jenkins  4096 Sep 20 06:12 test
+drwxr-xr-x 5 jenkins jenkins  4096 Sep 20 06:11 ..
+[8mha:////4JLHaNZPnHEBtcacXEt91gtB0/XvksSn+CcZZkXMnJCSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4C/uHJWKM2eYJuknZ2qH5U+6NK/LtvCqncWcNDjvb1nvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4MH2XiJe6EsYXWrJtpZYFj9TsaRxYncz7QaLmEVzSf7NAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] stage
+[8mha:////4MN1FelFuWNMgzM4qm+j8vUmHbG4bupyACat70wx26fqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (build project)
+[8mha:////4KNtJvknokcVtANG2aJFim+LplXkp8Ww+yzxDg7kLpV0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ ls -lat
+total 92
+drwxr-xr-x 8 jenkins jenkins  4096 Sep 20 06:12 .git
+drwxr-xr-x 7 jenkins jenkins  4096 Sep 20 06:12 .
+-rw-r--r-- 1 jenkins jenkins   226 Sep 20 06:12 .editorconfig
+-rw-r--r-- 1 jenkins jenkins    67 Sep 20 06:12 .gitattributes
+-rw-r--r-- 1 jenkins jenkins  3804 Sep 20 06:12 .gitignore
+-rw-r--r-- 1 jenkins jenkins   156 Sep 20 06:12 .travis.yml
+-rw-r--r-- 1 jenkins jenkins  1526 Sep 20 06:12 Build.ps1
+-rw-r--r-- 1 jenkins jenkins   190 Sep 20 06:12 CHANGES.md
+-rw-r--r-- 1 jenkins jenkins 11357 Sep 20 06:12 LICENSE
+-rw-r--r-- 1 jenkins jenkins  8391 Sep 20 06:12 README.md
+-rw-r--r-- 1 jenkins jenkins   612 Sep 20 06:12 appveyor.yml
+drwxr-xr-x 2 jenkins jenkins  4096 Sep 20 06:12 assets
+-rwxr-xr-x 1 jenkins jenkins   379 Sep 20 06:12 build.sh
+drwxr-xr-x 3 jenkins jenkins  4096 Sep 20 06:12 example
+-rw-r--r-- 1 jenkins jenkins  3163 Sep 20 06:12 serilog-sinks-file.sln
+-rw-r--r-- 1 jenkins jenkins   497 Sep 20 06:12 serilog-sinks-file.sln.DotSettings
+drwxr-xr-x 3 jenkins jenkins  4096 Sep 20 06:12 src
+drwxr-xr-x 3 jenkins jenkins  4096 Sep 20 06:12 test
+drwxr-xr-x 5 jenkins jenkins  4096 Sep 20 06:11 ..
+[8mha:////4GJZn/qMhqu//xutfpSAWNj5MUnYPAssJWgRjgJYAu5YAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ dos2unix build.sh
+/var/jenkins_home/workspace/serilog-sinks-file@tmp/durable-218d2376/script.sh: 1: dos2unix: not found
+[8mha:////4Ao248CR90IHphcWPYh0OduYKtWpue3PxeY39sPQuheAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+[8mha:////4MTeMTcqdxxV3BFa9ADXeENwpkQiGYTmel6S8JCJiR36AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // stage
+[8mha:////4J2qP27VHp8LXRZHGagByCCW/yBs43+ut309jQp3thM9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiIDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuP6TPlMu+AAAA[0m[Pipeline] }
+[8mha:////4HFKoIxM8b8RU+ihQAerU5z8r8b/MJXT3g9mb+ru/C7VAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wGXLM93vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NUH/5KKSvvlAlzihkz5yW1nN0lKPPjsB1hlpeDRKZZ3AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIuskdu9AAAA[0m[Pipeline] }
+[8mha:////4DZkGbT5Nj85IJg755IFtGvwqgjfK827C4KecIPfnKtrAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AJgQlXi9AAAA[0m[Pipeline] // node
+[8mha:////4FahMkRneHNQ+hzZyi72uc8rPLClkaBf3yh80qyq3Sf9AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUH37fCjb0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 127
+Finished: FAILURE

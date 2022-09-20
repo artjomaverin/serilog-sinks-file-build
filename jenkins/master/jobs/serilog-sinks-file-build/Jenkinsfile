@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('checkout git repo') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/serilog/serilog-sinks-file/'
+	    
+                sh "ls -lat"
+            }
+        }
+        stage('build project') {
+            steps {
+                sh "ls -lat"
+				sh "dos2unix build.sh"
+				sh "./build.sh"
+            }
+        }
+	}
+}
