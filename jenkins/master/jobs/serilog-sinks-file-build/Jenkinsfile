@@ -2,11 +2,20 @@ pipeline {
     agent any
 
     stages {
-	    stage('test') {
-		    steps {
-			    echo "testing now"
-				git branch: "develop", url: "https://github.com/artjomaverin/serilog-sinks-file-build"
-			}
-		}
+        stage('checkout git repo') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/serilog/serilog-sinks-file/'
+	    
+                sh "ls -lat"
+            }
+        }
+        stage('build project') {
+            steps {
+                sh "ls -lat"
+				sh "dos2unix build.sh"
+				sh "./build.sh"
+            }
+        }
 	}
 }
