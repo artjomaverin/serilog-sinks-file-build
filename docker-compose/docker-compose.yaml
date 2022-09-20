@@ -13,12 +13,12 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
 
   jenkins_agent:
-    container_name: jenkins_agent-007
+    container_name: jenkins_agent_007
     restart: always
-    image: jenkins/inbound-agent
+    image: artjomaverin0/test_jenkins_agent:latest
     privileged: true
     environment:
         JENKINS_URL: "http://jenkins_master:8080"
-        JENKINS_AGENT_NAME: "agent-007"
-        JENKINS_SECRET: "fbf79b6d580a6ccf8f907be223f92c3cbc0f486e537b34a2d2f1b94ea6874269"
+        JENKINS_AGENT_NAME: "agent_007"
+        JENKINS_SECRET: "1092e48621228982085574361a2ac021916a46207888c13a1b692d36bbecd63c"
 

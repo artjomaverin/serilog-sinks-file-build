@@ -1,0 +1,197 @@
+Started by user [8mha:////4C0fM/punpu1LKRVH5Cz8Z0q7F1eRt1oTQvOiNpg021RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Replayed [8mha:////4I59b9ZfZBCXCvdYeh77R+Bvyi37Xl6Hp8ZZkegCL2X+AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYp/az8JP3i1KLMnPx03WKgrcW6aZk5qfoW+gCH3caazwAAAA==[0m#8
+[8mha:////4N+cIwphYiijsH79Lr4xyVHlHBhRqeOmS7gTUR9z8eiLAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4BfxvZe3qPQSdBgLddQBMYouS7I/8cPvbv2BlIPbeCmUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4KKeHcC7IpgiTIf6h2h56TNabRipsrh51YvskUYs+KnBAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYx/eT83ILSktQi/cT01LwSVVM3AwNzfQA0czrhywAAAA==[0magent_007 in /home/jenkins/workspace/serilog-sinks-file
+[8mha:////4CKQ0AATPTqkQDCaWsaRlCDJut7MJpuWL2wxOE9VdQprAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4AMdWjOC1PK6TLVP9eh5E/f9gWckOBpygAUr5+nhuD65AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4IJjmJvBzVirPEz0V8CL8WfJFsQ6tu5zxDNYk0OV0nxJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4BG+W0N4FrLPbAUr7RRHC/z3oA01Ld3ou2wNNHGlpYDcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/artjomaverin/serilog-sinks-file-build
+ > git init /home/jenkins/workspace/serilog-sinks-file # timeout=10
+Fetching upstream changes from https://github.com/artjomaverin/serilog-sinks-file-build
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/artjomaverin/serilog-sinks-file-build +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 0076d6598e5941eadd1314303d3a263ea43ed388 (origin/develop)
+ > git config remote.origin.url https://github.com/artjomaverin/serilog-sinks-file-build # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/develop
+Seen branch in repository origin/main
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0076d6598e5941eadd1314303d3a263ea43ed388 # timeout=10
+Commit message: "Add basic Jenkinsfile for the serilog build job"
+ > git rev-list --no-walk 0076d6598e5941eadd1314303d3a263ea43ed388 # timeout=10
+[8mha:////4P1coKJGOFMR+ixogLzzXhoBhlShIW9EZpdn7dpH+e40AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4L7OejFfbqR3ZmMzCHMM6/maSLGuROPetaosg09ypjbiAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4JMqVfTblI1dsWzG51ab4FMnoQuPiZZkXiduZlWyRrqMAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4FKkkcvatssU7vOc9kdMdKtBW7KaXRDAqzyNHsVpGtlAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4CmrVjW+7BjTB8X364Pr3CX5YMcKBCckszxV3yHsGKXYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4PWA15kwIX1PT0WkRI4QAkYXuAlnMtISY8680Dja3HZQAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (checkout git repo)
+[8mha:////4AX405o6RMS7hm8+jtWGjdnwMWHKGnZAO1/AOD7H1d1nAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+Checking out Revision d2117ab67d588a49e36a9a38d5a5ed3f16e23157 (refs/remotes/origin/dev)
+Commit message: "Merge pull request #241 from Sjoerdsjoerd/patch-1"
+ > git rev-parse --resolve-git-dir /home/jenkins/workspace/serilog-sinks-file/.git # timeout=10
+ > git config remote.origin.url https://github.com/serilog/serilog-sinks-file/ # timeout=10
+Fetching upstream changes from https://github.com/serilog/serilog-sinks-file/
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/serilog/serilog-sinks-file/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/dev^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d2117ab67d588a49e36a9a38d5a5ed3f16e23157 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b dev d2117ab67d588a49e36a9a38d5a5ed3f16e23157 # timeout=10
+ > git rev-list --no-walk d2117ab67d588a49e36a9a38d5a5ed3f16e23157 # timeout=10
+[8mha:////4FZulEXz2M4JKZGwNQMcrg/pPG0yYKPODnDVAOcus1T8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] sh
++ ls -lat
+total 92
+drwxr-xr-x 4 root root  4096 Sep 20 18:46 ..
+drwxr-xr-x 8 root root  4096 Sep 20 18:46 .git
+drwxr-xr-x 7 root root  4096 Sep 20 18:46 .
+-rw-r--r-- 1 root root   226 Sep 20 18:46 .editorconfig
+-rw-r--r-- 1 root root    67 Sep 20 18:46 .gitattributes
+-rw-r--r-- 1 root root  3804 Sep 20 18:46 .gitignore
+-rw-r--r-- 1 root root   156 Sep 20 18:46 .travis.yml
+-rw-r--r-- 1 root root  1526 Sep 20 18:46 Build.ps1
+-rw-r--r-- 1 root root   190 Sep 20 18:46 CHANGES.md
+-rw-r--r-- 1 root root 11357 Sep 20 18:46 LICENSE
+-rw-r--r-- 1 root root  8391 Sep 20 18:46 README.md
+-rw-r--r-- 1 root root   612 Sep 20 18:46 appveyor.yml
+drwxr-xr-x 2 root root  4096 Sep 20 18:46 assets
+-rwxr-xr-x 1 root root   379 Sep 20 18:46 build.sh
+drwxr-xr-x 3 root root  4096 Sep 20 18:46 example
+-rw-r--r-- 1 root root  3163 Sep 20 18:46 serilog-sinks-file.sln
+-rw-r--r-- 1 root root   497 Sep 20 18:46 serilog-sinks-file.sln.DotSettings
+drwxr-xr-x 3 root root  4096 Sep 20 18:46 src
+drwxr-xr-x 3 root root  4096 Sep 20 18:46 test
+[8mha:////4JLHaNZPnHEBtcacXEt91gtB0/XvksSn+CcZZkXMnJCSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4C/uHJWKM2eYJuknZ2qH5U+6NK/LtvCqncWcNDjvb1nvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4MH2XiJe6EsYXWrJtpZYFj9TsaRxYncz7QaLmEVzSf7NAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] stage
+[8mha:////4MN1FelFuWNMgzM4qm+j8vUmHbG4bupyACat70wx26fqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (build project)
+[8mha:////4KNtJvknokcVtANG2aJFim+LplXkp8Ww+yzxDg7kLpV0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ ls -lat
+total 92
+drwxr-xr-x 4 root root  4096 Sep 20 18:46 ..
+drwxr-xr-x 8 root root  4096 Sep 20 18:46 .git
+drwxr-xr-x 7 root root  4096 Sep 20 18:46 .
+-rw-r--r-- 1 root root   226 Sep 20 18:46 .editorconfig
+-rw-r--r-- 1 root root    67 Sep 20 18:46 .gitattributes
+-rw-r--r-- 1 root root  3804 Sep 20 18:46 .gitignore
+-rw-r--r-- 1 root root   156 Sep 20 18:46 .travis.yml
+-rw-r--r-- 1 root root  1526 Sep 20 18:46 Build.ps1
+-rw-r--r-- 1 root root   190 Sep 20 18:46 CHANGES.md
+-rw-r--r-- 1 root root 11357 Sep 20 18:46 LICENSE
+-rw-r--r-- 1 root root  8391 Sep 20 18:46 README.md
+-rw-r--r-- 1 root root   612 Sep 20 18:46 appveyor.yml
+drwxr-xr-x 2 root root  4096 Sep 20 18:46 assets
+-rwxr-xr-x 1 root root   379 Sep 20 18:46 build.sh
+drwxr-xr-x 3 root root  4096 Sep 20 18:46 example
+-rw-r--r-- 1 root root  3163 Sep 20 18:46 serilog-sinks-file.sln
+-rw-r--r-- 1 root root   497 Sep 20 18:46 serilog-sinks-file.sln.DotSettings
+drwxr-xr-x 3 root root  4096 Sep 20 18:46 src
+drwxr-xr-x 3 root root  4096 Sep 20 18:46 test
+[8mha:////4GJZn/qMhqu//xutfpSAWNj5MUnYPAssJWgRjgJYAu5YAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ dos2unix build.sh
+dos2unix: converting file build.sh to Unix format...
+[8mha:////4CLo6zO8sl1yyIwqJabtojzgARisKF0dl0uZrN3/sZiOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKPeHXHXtP5vywgS+AAAA[0m[Pipeline] sh
++ ./build.sh
+.NET SDK (reflecting any global.json):
+ Version:   6.0.401
+ Commit:    0906eae6f8
+
+Runtime Environment:
+ OS Name:     debian
+ OS Version:  11
+ OS Platform: Linux
+ RID:         debian.11-x64
+ Base Path:   /usr/share/dotnet/sdk/6.0.401/
+
+global.json file:
+  Not found
+
+Host:
+  Version:      6.0.9
+  Architecture: x64
+  Commit:       163a63591c
+
+.NET SDKs installed:
+  6.0.401 [/usr/share/dotnet/sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 6.0.9 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 6.0.9 [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+
+Download .NET:
+  https://aka.ms/dotnet-download
+
+Learn about .NET Runtimes and SDKs:
+  https://aka.ms/dotnet/runtimes-sdk-info
+6.0.401 [/usr/share/dotnet/sdk]
+
+Welcome to .NET 6.0!
+---------------------
+SDK Version: 6.0.401
+
+Telemetry
+---------
+The .NET tools collect usage data in order to help us improve your experience. It is collected by Microsoft and shared with the community. You can opt-out of telemetry by setting the DOTNET_CLI_TELEMETRY_OPTOUT environment variable to '1' or 'true' using your favorite shell.
+
+Read more about .NET CLI Tools telemetry: https://aka.ms/dotnet-cli-telemetry
+
+----------------
+Installed an ASP.NET Core HTTPS development certificate.
+To trust the certificate run 'dotnet dev-certs https --trust' (Windows and macOS only).
+Learn about HTTPS: https://aka.ms/dotnet-https
+----------------
+Write your first app: https://aka.ms/dotnet-hello-world
+Find out what's new: https://aka.ms/dotnet-whats-new
+Explore documentation: https://aka.ms/dotnet-docs
+Report issues and find source on GitHub: https://github.com/dotnet/core
+Use 'dotnet --help' to see available commands or visit: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+  Determining projects to restore...
+  Restored /home/jenkins/workspace/serilog-sinks-file/example/Sample/Sample.csproj (in 5.75 sec).
+  Restored /home/jenkins/workspace/serilog-sinks-file/src/Serilog.Sinks.File/Serilog.Sinks.File.csproj (in 6.04 sec).
+  Restored /home/jenkins/workspace/serilog-sinks-file/test/Serilog.Sinks.File.Tests/Serilog.Sinks.File.Tests.csproj (in 6.05 sec).
+🤖 Attempting to build...
+MSBuild version 17.3.1+2badb37d1 for .NET
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Serilog.Sinks.File -> /home/jenkins/workspace/serilog-sinks-file/src/Serilog.Sinks.File/bin/Release/netstandard1.3/Serilog.Sinks.File.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
+MSBuild version 17.3.1+2badb37d1 for .NET
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Serilog.Sinks.File -> /home/jenkins/workspace/serilog-sinks-file/src/Serilog.Sinks.File/bin/Release/netstandard2.0/Serilog.Sinks.File.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.57
+🤖 Running tests...
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+[8mha:////4FWRI5m4fW1fUjzeUvc+ZQaUf87HsoVTfw7pnxncnVtaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] }
+[8mha:////4LJ2gzqykjCjZCj+fhU5EZ+0FsYpZmhWWcLTnFoTMaMvAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAAHdIsr4AAAA=[0m[Pipeline] // stage
+[8mha:////4OR/bONo2tle2kUYYyA9gtJpHtEQBG2GeaMvsYakwx1mAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiIFEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QEBHMgAvgAAAA==[0m[Pipeline] }
+[8mha:////4A2Zw+EXqxKfD1hMacuyYGDxHHHMufqPRh/Fb6rvUOBeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wE5XlvxvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JjJ7P/OsafCWQCk3nmZfxlv2Ur2AoNgO57FYv+y4wldAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuAzuF8ea9AAAA[0m[Pipeline] }
+[8mha:////4P/ZGKeUUbqf54yD0IqkoSb3qJ2sI5hVnG0KHa80R3egAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AEmHxfq9AAAA[0m[Pipeline] // node
+[8mha:////4Nls5yR0ZOG5Kqml0D5wYzvRw5cfTWMm9RUhVWM0s3z2AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkbMY4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAb56isL0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
