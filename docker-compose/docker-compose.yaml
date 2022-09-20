@@ -24,3 +24,16 @@ services:
         JENKINS_URL: "http://jenkins_master:8080"
         JENKINS_AGENT_NAME: "agent_007"
         JENKINS_SECRET: "1092e48621228982085574361a2ac021916a46207888c13a1b692d36bbecd63c"
+
+  webdav:
+    image: bytemark/webdav
+    restart: always
+    ports:
+      - "80:80"
+    environment:
+      TZ: "Europe/Prague"
+      AUTH_TYPE: Digest
+      USERNAME: user
+      PASSWORD: user
+    volumes:
+      - ../dav:/var/lib/dav
