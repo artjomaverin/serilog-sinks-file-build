@@ -1,0 +1,26 @@
+[2022-09-21T06:32:54.696Z] Started by user [8mha:////4C0fM/punpu1LKRVH5Cz8Z0q7F1eRt1oTQvOiNpg021RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[2022-09-21T06:32:54.696Z] Replayed [8mha:////4Ae/eaI8iK9Gr7mQrgEjk4Oow92gIMZoyvOu+nh+jdOYAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZp/az8JP3i1KLMnPx03WKgrcW6aZk5qfpGxvoAzc8n7tAAAAA=[0m#23
+[2022-09-21T06:32:54.758Z] org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+[2022-09-21T06:32:54.758Z] WorkflowScript: 4: Environment variable values to be concatenated together must be single or double quoted. @ line 4, column 26.
+[2022-09-21T06:32:54.758Z]    		ArtName = "Release_" + env.BUILD_NUMBER + ".zip"
+[2022-09-21T06:32:54.758Z]                             ^
+[2022-09-21T06:32:54.758Z] 
+[2022-09-21T06:32:54.758Z] 1 error
+[2022-09-21T06:32:54.758Z] 
+[2022-09-21T06:32:54.758Z] 	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+[2022-09-21T06:32:54.758Z] 	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1107)
+[2022-09-21T06:32:54.758Z] 	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:624)
+[2022-09-21T06:32:54.758Z] 	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:602)
+[2022-09-21T06:32:54.758Z] 	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:579)
+[2022-09-21T06:32:54.758Z] 	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:323)
+[2022-09-21T06:32:54.758Z] 	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:293)
+[2022-09-21T06:32:54.758Z] 	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:677)
+[2022-09-21T06:32:54.758Z] 	at groovy.lang.GroovyShell.parse(GroovyShell.java:689)
+[2022-09-21T06:32:54.758Z] 	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:142)
+[2022-09-21T06:32:54.758Z] 	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:127)
+[2022-09-21T06:32:54.758Z] 	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:561)
+[2022-09-21T06:32:54.758Z] 	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:513)
+[2022-09-21T06:32:54.758Z] 	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:335)
+[2022-09-21T06:32:54.758Z] 	at hudson.model.ResourceController.execute(ResourceController.java:107)
+[2022-09-21T06:32:54.758Z] 	at hudson.model.Executor.run(Executor.java:449)
+[2022-09-21T06:32:54.770Z] Finished: FAILURE

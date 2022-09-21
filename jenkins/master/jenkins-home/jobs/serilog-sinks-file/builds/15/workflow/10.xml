@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@838.va_3a_087b_4055b">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2759.v87459c4eea_ca_">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2759.v87459c4eea_ca_">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/develop</string>
+            <string>GIT_COMMIT=1d42429361ea75b39b28d3b050ebe2899a7fd65d</string>
+            <string>GIT_PREVIOUS_COMMIT=1d42429361ea75b39b28d3b050ebe2899a7fd65d</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=0076d6598e5941eadd1314303d3a263ea43ed388</string>
+            <string>GIT_URL=https://github.com/artjomaverin/serilog-sinks-file-build</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1192.v2d0deb_19d212">
+      <startTime>1663738823407</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>
