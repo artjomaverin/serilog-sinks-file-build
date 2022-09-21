@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: gmcdonald
+Build-Jdk: 11.0.13
+Extension-Name: publish-over-ftp
+Specification-Title: Send build artifacts over FTP
+Implementation-Title: publish-over-ftp
+Implementation-Version: 1.17
+Group-Id: org.jenkins-ci.plugins
+Short-Name: publish-over-ftp
+Long-Name: Publish Over FTP
+Url: https://github.com/jenkinsci/publish-over-ftp-plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.17
+Hudson-Version: 2.289.1
+Jenkins-Version: 2.289.1
+Plugin-Dependencies: publish-over:0.22,structs:308.v852b473a2b8c
+Plugin-Developers: Alex Earl:slide_o_mix:slide.o.mix@gmail.com,Bap:bap
+ :bap-jenkins@BapIT.co.uk
+Plugin-License-Name: The MIT license
+Plugin-ScmUrl: https://github.com/jenkinsci/publish-over-ftp-plugin
+

@@ -1,0 +1,148 @@
+[2022-09-21T06:33:50.235Z] Started by user [8mha:////4C0fM/punpu1LKRVH5Cz8Z0q7F1eRt1oTQvOiNpg021RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[2022-09-21T06:33:50.235Z] Replayed [8mha:////4Ae/eaI8iK9Gr7mQrgEjk4Oow92gIMZoyvOu+nh+jdOYAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZp/az8JP3i1KLMnPx03WKgrcW6aZk5qfpGxvoAzc8n7tAAAAA=[0m#23
+[2022-09-21T06:33:50.278Z] [8mha:////4N+cIwphYiijsH79Lr4xyVHlHBhRqeOmS7gTUR9z8eiLAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[2022-09-21T06:33:50.453Z] [8mha:////4BfxvZe3qPQSdBgLddQBMYouS7I/8cPvbv2BlIPbeCmUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+[2022-09-21T06:33:50.467Z] Running on [8mha:////4KKeHcC7IpgiTIf6h2h56TNabRipsrh51YvskUYs+KnBAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYx/eT83ILSktQi/cT01LwSVVM3AwNzfQA0czrhywAAAA==[0magent_007 in /home/jenkins/workspace/serilog-sinks-file
+[2022-09-21T06:33:50.490Z] [8mha:////4CKQ0AATPTqkQDCaWsaRlCDJut7MJpuWL2wxOE9VdQprAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[2022-09-21T06:33:50.512Z] [8mha:////4AMdWjOC1PK6TLVP9eh5E/f9gWckOBpygAUr5+nhuD65AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[2022-09-21T06:33:50.516Z] [8mha:////4IJjmJvBzVirPEz0V8CL8WfJFsQ6tu5zxDNYk0OV0nxJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[2022-09-21T06:33:50.544Z] [8mha:////4BG+W0N4FrLPbAUr7RRHC/z3oA01Ld3ou2wNNHGlpYDcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+[2022-09-21T06:33:50.564Z] The recommended git tool is: NONE
+[2022-09-21T06:33:50.576Z] No credentials specified
+[2022-09-21T06:33:50.589Z] Fetching changes from the remote Git repository
+[2022-09-21T06:33:50.580Z]  > git rev-parse --resolve-git-dir /home/jenkins/workspace/serilog-sinks-file/.git # timeout=10
+[2022-09-21T06:33:50.597Z]  > git config remote.origin.url https://github.com/artjomaverin/serilog-sinks-file-build # timeout=10
+[2022-09-21T06:33:50.608Z] Fetching upstream changes from https://github.com/artjomaverin/serilog-sinks-file-build
+[2022-09-21T06:33:50.608Z]  > git --version # timeout=10
+[2022-09-21T06:33:50.616Z]  > git --version # 'git version 2.30.2'
+[2022-09-21T06:33:50.616Z]  > git fetch --tags --force --progress -- https://github.com/artjomaverin/serilog-sinks-file-build +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2022-09-21T06:34:02.749Z] Checking out Revision 1d42429361ea75b39b28d3b050ebe2899a7fd65d (origin/develop)
+[2022-09-21T06:34:02.712Z] Seen branch in repository origin/dev
+[2022-09-21T06:34:02.714Z] Seen branch in repository origin/develop
+[2022-09-21T06:34:02.714Z] Seen branch in repository origin/main
+[2022-09-21T06:34:02.716Z] Seen 3 remote branches
+[2022-09-21T06:34:02.726Z]  > git show-ref --tags -d # timeout=10
+[2022-09-21T06:34:02.756Z]  > git config core.sparsecheckout # timeout=10
+[2022-09-21T06:34:02.765Z]  > git checkout -f 1d42429361ea75b39b28d3b050ebe2899a7fd65d # timeout=10
+[2022-09-21T06:34:05.346Z] Commit message: "Add test webdav container"
+[2022-09-21T06:34:05.352Z]  > git rev-list --no-walk 1d42429361ea75b39b28d3b050ebe2899a7fd65d # timeout=10
+[2022-09-21T06:34:05.536Z] [8mha:////4P1coKJGOFMR+ixogLzzXhoBhlShIW9EZpdn7dpH+e40AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[2022-09-21T06:34:05.573Z] [8mha:////4L7OejFfbqR3ZmMzCHMM6/maSLGuROPetaosg09ypjbiAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[2022-09-21T06:34:05.611Z] [8mha:////4JMqVfTblI1dsWzG51ab4FMnoQuPiZZkXiduZlWyRrqMAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[2022-09-21T06:34:05.621Z] [8mha:////4FKkkcvatssU7vOc9kdMdKtBW7KaXRDAqzyNHsVpGtlAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[2022-09-21T06:34:05.711Z] [8mha:////4CmrVjW+7BjTB8X364Pr3CX5YMcKBCckszxV3yHsGKXYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[2022-09-21T06:34:05.720Z] [8mha:////4PWA15kwIX1PT0WkRI4QAkYXuAlnMtISY8680Dja3HZQAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[2022-09-21T06:34:05.762Z] [8mha:////4MhYlD/j2cr12XB3Glq2Dmu3NxPVdQ61wKsvN2d5vnIKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[2022-09-21T06:34:05.768Z] [8mha:////4O0FMukb4DkHuHB45ZNOjGq6CsmBVOWTZ1BTdDNWNeGNAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Build)
+[2022-09-21T06:34:05.831Z] [8mha:////4FFtqLJEHQIdPnE6DgInelvHYTc4JAP30H6a1TC+gM/uAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] cleanWs
+[2022-09-21T06:34:05.848Z] [WS-CLEANUP] Deleting project workspace...
+[2022-09-21T06:34:05.848Z] [WS-CLEANUP] Deferred wipeout is used...
+[2022-09-21T06:34:05.864Z] [WS-CLEANUP] done
+[2022-09-21T06:34:05.877Z] [8mha:////4GF/pkkt8JYvFlZj/FgDuqGvpdts6IrH+4A3JH+yQ0WnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] git
+[2022-09-21T06:34:05.898Z] The recommended git tool is: NONE
+[2022-09-21T06:34:05.914Z] No credentials specified
+[2022-09-21T06:34:05.922Z] Cloning the remote Git repository
+[2022-09-21T06:34:06.794Z] Avoid second fetch
+[2022-09-21T06:34:06.803Z] Checking out Revision 7eb21bd4d35d0b8b7d13e6a15851c9903ea9a468 (refs/remotes/origin/main)
+[2022-09-21T06:34:06.842Z] Commit message: "Merge pull request #210 from serilog/dev"
+[2022-09-21T06:34:05.929Z] Cloning repository https://github.com/serilog/serilog-sinks-file/
+[2022-09-21T06:34:05.929Z]  > git init /home/jenkins/workspace/serilog-sinks-file # timeout=10
+[2022-09-21T06:34:05.942Z] Fetching upstream changes from https://github.com/serilog/serilog-sinks-file/
+[2022-09-21T06:34:05.942Z]  > git --version # timeout=10
+[2022-09-21T06:34:06.101Z]  > git --version # 'git version 2.30.2'
+[2022-09-21T06:34:06.101Z]  > git fetch --tags --force --progress -- https://github.com/serilog/serilog-sinks-file/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2022-09-21T06:34:06.773Z]  > git config remote.origin.url https://github.com/serilog/serilog-sinks-file/ # timeout=10
+[2022-09-21T06:34:06.779Z]  > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2022-09-21T06:34:06.798Z]  > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+[2022-09-21T06:34:06.807Z]  > git config core.sparsecheckout # timeout=10
+[2022-09-21T06:34:06.811Z]  > git checkout -f 7eb21bd4d35d0b8b7d13e6a15851c9903ea9a468 # timeout=10
+[2022-09-21T06:34:06.820Z]  > git branch -a -v --no-abbrev # timeout=10
+[2022-09-21T06:34:06.824Z]  > git checkout -b main 7eb21bd4d35d0b8b7d13e6a15851c9903ea9a468 # timeout=10
+[2022-09-21T06:34:06.845Z]  > git rev-list --no-walk 7eb21bd4d35d0b8b7d13e6a15851c9903ea9a468 # timeout=10
+[2022-09-21T06:34:06.880Z] [8mha:////4FO/9nRg+Kjr2dIwGwLsNJtnH4LR1V6FtDltqrH0t9yMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q08zss7vgAAAA==[0m[Pipeline] sh
+[2022-09-21T06:34:07.182Z] + dos2unix build.sh
+[2022-09-21T06:34:07.182Z] dos2unix: converting file build.sh to Unix format...
+[2022-09-21T06:34:07.182Z] + ./build.sh
+[2022-09-21T06:34:07.182Z] .NET SDK (reflecting any global.json):
+[2022-09-21T06:34:07.182Z]  Version:   6.0.401
+[2022-09-21T06:34:07.182Z]  Commit:    0906eae6f8
+[2022-09-21T06:34:07.182Z] 
+[2022-09-21T06:34:07.182Z] Runtime Environment:
+[2022-09-21T06:34:07.182Z]  OS Name:     debian
+[2022-09-21T06:34:07.182Z]  OS Version:  11
+[2022-09-21T06:34:07.182Z]  OS Platform: Linux
+[2022-09-21T06:34:07.182Z]  RID:         debian.11-x64
+[2022-09-21T06:34:07.182Z]  Base Path:   /usr/share/dotnet/sdk/6.0.401/
+[2022-09-21T06:34:07.182Z] 
+[2022-09-21T06:34:07.182Z] global.json file:
+[2022-09-21T06:34:07.182Z]   Not found
+[2022-09-21T06:34:07.182Z] 
+[2022-09-21T06:34:07.182Z] Host:
+[2022-09-21T06:34:07.182Z]   Version:      6.0.9
+[2022-09-21T06:34:07.182Z]   Architecture: x64
+[2022-09-21T06:34:07.182Z]   Commit:       163a63591c
+[2022-09-21T06:34:07.182Z] 
+[2022-09-21T06:34:07.182Z] .NET SDKs installed:
+[2022-09-21T06:34:07.182Z]   6.0.401 [/usr/share/dotnet/sdk]
+[2022-09-21T06:34:07.182Z] 
+[2022-09-21T06:34:07.182Z] .NET runtimes installed:
+[2022-09-21T06:34:07.184Z]   Microsoft.AspNetCore.App 6.0.9 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]
+[2022-09-21T06:34:07.184Z]   Microsoft.NETCore.App 6.0.9 [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+[2022-09-21T06:34:07.184Z] 
+[2022-09-21T06:34:07.184Z] Download .NET:
+[2022-09-21T06:34:07.184Z]   https://aka.ms/dotnet-download
+[2022-09-21T06:34:07.184Z] 
+[2022-09-21T06:34:07.184Z] Learn about .NET Runtimes and SDKs:
+[2022-09-21T06:34:07.184Z]   https://aka.ms/dotnet/runtimes-sdk-info
+[2022-09-21T06:34:07.184Z] 6.0.401 [/usr/share/dotnet/sdk]
+[2022-09-21T06:34:08.170Z]   Determining projects to restore...
+[2022-09-21T06:34:09.143Z]   Restored /home/jenkins/workspace/serilog-sinks-file/example/Sample/Sample.csproj (in 193 ms).
+[2022-09-21T06:34:09.143Z]   Restored /home/jenkins/workspace/serilog-sinks-file/src/Serilog.Sinks.File/Serilog.Sinks.File.csproj (in 326 ms).
+[2022-09-21T06:34:09.143Z]   Restored /home/jenkins/workspace/serilog-sinks-file/test/Serilog.Sinks.File.Tests/Serilog.Sinks.File.Tests.csproj (in 338 ms).
+[2022-09-21T06:34:09.143Z] 🤖 Attempting to build...
+[2022-09-21T06:34:09.410Z] MSBuild version 17.3.1+2badb37d1 for .NET
+[2022-09-21T06:34:09.684Z]   Determining projects to restore...
+[2022-09-21T06:34:10.276Z]   All projects are up-to-date for restore.
+[2022-09-21T06:34:11.693Z]   Serilog.Sinks.File -> /home/jenkins/workspace/serilog-sinks-file/src/Serilog.Sinks.File/bin/Release/netstandard1.3/Serilog.Sinks.File.dll
+[2022-09-21T06:34:11.693Z] 
+[2022-09-21T06:34:11.693Z] Build succeeded.
+[2022-09-21T06:34:11.693Z]     0 Warning(s)
+[2022-09-21T06:34:11.693Z]     0 Error(s)
+[2022-09-21T06:34:11.693Z] 
+[2022-09-21T06:34:11.693Z] Time Elapsed 00:00:01.54
+[2022-09-21T06:34:11.956Z] MSBuild version 17.3.1+2badb37d1 for .NET
+[2022-09-21T06:34:12.220Z]   Determining projects to restore...
+[2022-09-21T06:34:12.822Z]   All projects are up-to-date for restore.
+[2022-09-21T06:34:13.427Z]   Serilog.Sinks.File -> /home/jenkins/workspace/serilog-sinks-file/src/Serilog.Sinks.File/bin/Release/netstandard2.0/Serilog.Sinks.File.dll
+[2022-09-21T06:34:13.428Z] 
+[2022-09-21T06:34:13.428Z] Build succeeded.
+[2022-09-21T06:34:13.428Z]     0 Warning(s)
+[2022-09-21T06:34:13.428Z]     0 Error(s)
+[2022-09-21T06:34:13.428Z] 
+[2022-09-21T06:34:13.428Z] Time Elapsed 00:00:00.57
+[2022-09-21T06:34:13.428Z] 🤖 Running tests...
+[2022-09-21T06:34:15.084Z]   Determining projects to restore...
+[2022-09-21T06:34:15.900Z]   All projects are up-to-date for restore.
+[2022-09-21T06:34:16.235Z] [8mha:////4POhkxEn3sl8XLCLObJIdjuj/NdJw5M1+2KG5dk1C9FrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9/9AivgAAAA==[0m[Pipeline] zip
+[2022-09-21T06:34:16.254Z] Compress /home/jenkins/workspace/serilog-sinks-file/src/Serilog.Sinks.File/bin/Release to /home/jenkins/workspace/serilog-sinks-file/Release_.zip
+[2022-09-21T06:34:16.279Z] Compressed 8 entries.
+[2022-09-21T06:34:16.285Z] [8mha:////4Kvo98lwDiFOwbB9jaktSsWAJ2/f6cIWyz1/7QLd25mlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGrSWhXvgAAAA==[0m[Pipeline] }
+[2022-09-21T06:34:16.315Z] [8mha:////4Nb2ydZ+0M40mkqe0+MgdH/Sc7VXpPxoxgi0qBUjzb4UAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiIDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPpiqM+u+AAAA[0m[Pipeline] // stage
+[2022-09-21T06:34:16.340Z] [8mha:////4Fph0g1dwHTvTjCrO/81JOjWHTuc3Z4bGy6GYCWgcmk8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUlBExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnK3z9Y0n2f1BjOvLvLCAAAA[0m[Pipeline] stage
+[2022-09-21T06:34:16.345Z] [8mha:////4JRF8wiOJ4jsAh+fWCGFh7o9dZQNEfN1Mea+PxSzoySaAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[2022-09-21T06:34:16.384Z] [8mha:////4GrzH+JKRJy/0/lS1MF73XAznAT8hFDUgZ3uie455fd9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] archiveArtifacts
+[2022-09-21T06:34:16.397Z] Archiving artifacts
+[2022-09-21T06:34:16.457Z] [8mha:////4M6/x0lSFQ8gaaFjMB26bF5vF0M5Jg6oVL/gGD+bfwKTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN/E8fGG+AAAA[0m[Pipeline] cleanWs
+[2022-09-21T06:34:16.481Z] [WS-CLEANUP] Deleting project workspace...
+[2022-09-21T06:34:16.481Z] [WS-CLEANUP] Deferred wipeout is disabled by the job configuration...
+[2022-09-21T06:34:16.488Z] [WS-CLEANUP] done
+[2022-09-21T06:34:16.504Z] [8mha:////4EvQ2S2yPLUJAA9KF4mx49HOgy4USvrqrdq0AX0bFuaHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFAXH9DvgAAAA==[0m[Pipeline] }
+[2022-09-21T06:34:16.540Z] [8mha:////4J0IegTgfFMosO60sl1fUtvIHZ3GkYF5YCTucyO8Bag2AAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8bCsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DXO/JP++AAAA[0m[Pipeline] // stage
+[2022-09-21T06:34:16.553Z] [8mha:////4D6uAITHEZkNuIfhd2IS7nghXI4K5M6Fx5Bm8B/K68oaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/zblhSvgAAAA==[0m[Pipeline] }
+[2022-09-21T06:34:16.581Z] [8mha:////4KiCuJ/SjdyKuIFJ+7WU9h9qwvB1Yzi73JUD9CjrzwGWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGV9yLWvP8CNA+6+AAAA[0m[Pipeline] // withEnv
+[2022-09-21T06:34:16.593Z] [8mha:////4OXN2/HoYFluGcfKB9hcP5IDF1vNJ7pJT6NHxucuAyBYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhokRUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzsc9X1BwaGcva+AAAA[0m[Pipeline] }
+[2022-09-21T06:34:16.618Z] [8mha:////4ASdvb3Bk2HFQX5okX1eifY3xDA/CLTl6cBJQN28Y6j8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhokRUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzUuer9BzVlKUq+AAAA[0m[Pipeline] // withEnv
+[2022-09-21T06:34:16.629Z] [8mha:////4McCmFS2xWHY1WGD24XKAjelV/WpodGXCv+uSn0TFnZ5AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8B7tlN5b0AAAA=[0m[Pipeline] }
+[2022-09-21T06:34:16.655Z] [8mha:////4B4Dp0KUdogQCyBi17iCnDRCT6nEqvfiRSCpdMrQOsEjAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUlI6VbYbGE0SIMZDZhWQRKk/k1byDjMxY+av/XvNeb2xTxImjU62lzlOqverD6JanJo7dLfCkWr6qmilxsKqyU8WNPa9YsVisy3JsNHaW6sDJkxPsdWsepgiGXHGRuLijRu6bAU9keimLifKFOeJwH5vE9Ov8DWDue0FeloKs/AD9ZUlGvQAAAA==[0m[Pipeline] // node
+[2022-09-21T06:34:16.668Z] [8mha:////4B9JvcUbn//3bJ7tYd9Ye4jf3UgaDrW2C85uD5/MlQoHAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q7/aCbPsBe4lug70AAAA=[0m[Pipeline] End of Pipeline
+[2022-09-21T06:34:16.704Z] Finished: SUCCESS

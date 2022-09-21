@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.289.3
+Plugin-Dependencies: snakeyaml-api:1.30.1,workflow-cps:2660.vb_c0412dc
+ 4e6d;resolution:=optional,workflow-step-api:625.vd896b_f445a_f8,scrip
+ t-security:1138.v8e727069a_025,structs:318.va_f3ccb_729b_71
+Implementation-Title: Pipeline Utility Steps
+Long-Name: Pipeline Utility Steps
+Implementation-Version: 2.13.0
+Group-Id: org.jenkins-ci.plugins
+Minimum-Java-Version: 1.8
+Plugin-License-Name: MIT License
+Specification-Title: Pipeline Utility Steps
+Plugin-ScmUrl: https://github.com/jenkinsci/pipeline-utility-steps-plu
+ gin
+Plugin-Version: 2.13.0
+Jenkins-Version: 2.289.3
+Url: https://github.com/jenkinsci/pipeline-utility-steps-plugin
+Short-Name: pipeline-utility-steps
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-Developers: Robert Sandell:rsandell:rsandell@cloudbees.com
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.2
+Specification-Version: 2.13
+
