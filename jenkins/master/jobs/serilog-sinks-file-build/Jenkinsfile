@@ -1,21 +1,48 @@
 pipeline {
+	environment {
+		// Set the artifact name
+		ArtName = "Release_${env.BUILD_NUMBER}.zip"
+	}
     agent any
-
+	
     stages {
-        stage('checkout git repo') {
+        stage('Build') {
             steps {
+			
+                // Clean before build
+                cleanWs()
+
+				// Checkout serilog main
                 git branch: 'main',
-                    url: 'https://github.com/serilog/serilog-sinks-file/'
-	    
-                sh "ls -lat"
+				    url: 'https://github.com/serilog/serilog-sinks-file/'
+
+				// fix line endings in the shell build script, then run it
+				sh """
+				dos2unix build.sh
+				./build.sh
+				"""
+				
+				// Archive artifacts
+				zip zipFile: ArtName, archive: false, dir: 'src/Serilog.Sinks.File/bin/Release'
+				
+				sh "echo ${ArtName}"
+				sh "cp ${ArtName} /var/dav/data"
             }
         }
-        stage('build project') {
-            steps {
-                sh "ls -lat"
-				sh "dos2unix build.sh"
-				sh "./build.sh"
-            }
-        }
+	}
+	
+	post {
+		always {
+		    // store artifacts
+		    archiveArtifacts artifacts: ArtName, onlyIfSuccessful: true
+		
+		    // Clean ws after build
+			cleanWs(cleanWhenNotBuilt: false,
+					deleteDirs: true,
+					disableDeferredWipeout: true,
+					notFailBuild: true,
+					patterns: [[pattern: '.gitignore', type: 'INCLUDE'],
+							[pattern: '.propsfile', type: 'EXCLUDE']])
+		}
 	}
 }
