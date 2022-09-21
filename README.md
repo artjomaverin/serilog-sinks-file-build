@@ -22,7 +22,7 @@ built with [Dockerfile](./docker-compose/image/Dockerfile)
 
 This assumes that a host with all required tools has been prepared. If running
 from a fresh and empty machine, please refer to the sample instruction of how
-to prepare the [Debian host](##setting-up-host) below.
+to prepare the [Debian host](#setting-up-host) below.
 
 Clone this repo
 ```
@@ -38,8 +38,8 @@ sudo docker compose up -d --remove-orphans
 
 
 ## Accessing the infra
-Jenkins master is available at [127.0.0.1:8080](http://127.0.0.1:8080/)
-WebDAV is running at [127.0.0.1:80](http://127.0.0.1:80/)
+- Jenkins master is available at [127.0.0.1:8080](http://127.0.0.1:8080/)
+- WebDAV is running at [127.0.0.1:80](http://127.0.0.1:80/)
 
 
 ## Setting up host
