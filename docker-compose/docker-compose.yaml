@@ -10,21 +10,22 @@ services:
       - 50000:50000
     volumes:
       - ../jenkins/master/jenkins-home:/var/jenkins_home
-      - ../dav:/var/dav
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
-        TZ: "Europe/Prague"
+      TZ: "Europe/Prague"
 
   jenkins_agent:
     container_name: jenkins_agent_007
     restart: always
     image: artjomaverin0/test_jenkins_agent:latest
     privileged: true
+    volumes:
+      - ../dav:/var/dav
     environment:
-        TZ: "Europe/Prague"
-        JENKINS_URL: "http://jenkins_master:8080"
-        JENKINS_AGENT_NAME: "agent_007"
-        JENKINS_SECRET: "1092e48621228982085574361a2ac021916a46207888c13a1b692d36bbecd63c"
+      TZ: "Europe/Prague"
+      JENKINS_URL: "http://jenkins_master:8080"
+      JENKINS_AGENT_NAME: "agent_007"
+      JENKINS_SECRET: "1092e48621228982085574361a2ac021916a46207888c13a1b692d36bbecd63c"
 
   webdav:
     image: bytemark/webdav
