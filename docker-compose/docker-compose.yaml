@@ -10,6 +10,7 @@ services:
       - 50000:50000
     volumes:
       - ../jenkins/master/jenkins-home:/var/jenkins_home
+      - ../dav:/var/dav
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
         TZ: "Europe/Prague"
@@ -29,7 +30,7 @@ services:
     image: bytemark/webdav
     restart: always
     ports:
-      - "80:80"
+      - 80:80
     environment:
       TZ: "Europe/Prague"
       AUTH_TYPE: Digest
