@@ -38,8 +38,10 @@ sudo docker compose up -d --remove-orphans
 
 
 ## Accessing the infra
-- Jenkins master is available at [127.0.0.1:8080](http://127.0.0.1:8080/)
+- Jenkins master is available at [127.0.0.1:8080](http://127.0.0.1:8080/) 
+  - credentials — admin:admin
 - WebDAV is running at [127.0.0.1:80](http://127.0.0.1:80/)
+  - credentials — user:user
 
 
 ## Setting up host
